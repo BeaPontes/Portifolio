@@ -1,0 +1,100 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css);
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lexend+Giga&family=Quattrocento:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.img-wrapper{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: black;
+}
+
+.img-wrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.5;
+    animation: zoom 20s;
+}
+
+@keyframes zoom {
+    0%{
+        transform: scale(1.3);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+.banner{
+    position: absolute;
+    top: 35%;
+    left: 15%;
+}
+
+.banner h1{
+    color: white;
+    font-size: 3.8rem;
+    font-weight: 200;  
+    font-family: 'Lexend Giga', sans-serif;
+    letter-spacing: 2px;
+    text-shadow: 5px 3px 9px black;
+    line-height: 4rem;
+    margin-bottom: 2rem;
+    animation: moveBanner 1s;
+}
+
+.banner p{
+    margin-top: 20px;
+    color: blanchedalmond;
+    font-family: 'josefin', serif;
+    font-size: 1.5rem;
+    font-weight: 100;  
+    letter-spacing: 3px;
+    text-shadow: 5px 3px 9px black;
+    margin-bottom: 1.5rem;
+    animation: moveBanner 1.2s;
+}
+
+.banner button{
+    font-family: 'Lexend Giga', sans-serif;
+    color: white;
+    font-weight: 300;  
+    background-color: #fc4a1a;
+    background: -webkit-linear-gradient(to left, #f7b017, #f12711);
+    background: linear-gradient(to right, #f7b017, #f12711); 
+    padding: 1rem 3rem;
+    border: none;
+    text-transform: uppercase;
+    text-shadow: 5px 3px 5px black;
+    border-radius: 5px;
+    cursor: pointer;
+    animation: moveBanner 1.5s;
+}
+
+.banner button:hover{
+    opacity: 0.8;
+    background-color: #fc4a1a;
+    background: -webkit-linear-gradient(to left, #f7b017, #f12711);
+    background: linear-gradient(to left, #f7b017, #f12711); 
+}
+
+@keyframes moveBanner{
+    0%{
+        transform: translateY(10rem);
+    }
+    100%{
+        transform: translateY(0rem);
+    }
+}
