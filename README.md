@@ -6,4 +6,4 @@ portifólio do dev
 - :package: nova funcionalidade
 - :up: atualização
 - :beetle: correção de bug
-- :checkred_flag: release
+- :checkered_flag: release
