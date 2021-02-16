@@ -1,9 +1,9 @@
-# portifólio
+# Portifólio
 portifólio do dev
 
 ## icons
 
-- :packpage: nova funcionalidade
+- :package: nova funcionalidade
 - :up: atualização
 - :beetle: correção de bug
-- :checkrer_flag: release
+- :checkred_flag: release
