@@ -3,7 +3,7 @@ portifólio do dev
 
 ## icons
 
-:packpage: nova funcionalidade
-:up: atualização
-:beatle: correção de bug
-:checkrer_flag: realise
+-:packpage: nova funcionalidade
+-:up: atualização
+-:beetle: correção de bug
+-:checkrer_flag: realease
